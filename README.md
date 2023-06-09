@@ -290,15 +290,15 @@ No **_header_**(cabeçalho) da requisição deve ser enviado um **_Bearer &lt;to
         [
             {
                 "id": 1,
-                "name": "Fabio",
-                "email": "fabio@kenzie.com.br",
+                "name": "Joao",
+                "email": "joao@joao.com.br",
                 "admin": true,
                 "active": true
             },
             {
                 "id": 2,
-                "name": "Cauan",
-                "email": "cauan@kenzie.com.br",
+                "name": "Gabriel",
+                "email": "gabriel@gabriel.com.br",
                 "admin": false,
                 "active": false
             }
@@ -317,8 +317,8 @@ No **_header_**(cabeçalho) da requisição deve ser enviado um **_Bearer &lt;to
         ```json
         {
             "id": 1,
-            "name": "Fabio",
-            "email": "fabio@kenzie.com.br",
+            "name": "Joao",
+            "email": "joao@joao.com.br",
             "admin": true,
             "active": true
         }
@@ -335,7 +335,7 @@ No **_header_**(cabeçalho) da requisição deve ser enviado um **_Bearer &lt;to
 
         ```json
         {
-            "name": "Fabio Junior"
+            "name": "Joao"
         }
         ```
 
@@ -347,8 +347,8 @@ No **_header_**(cabeçalho) da requisição deve ser enviado um **_Bearer &lt;to
         ```json
         {
             "id": 1,
-            "name": "Fabio Junior",
-            "email": "fabio@kenzie.com.br",
+            "name": "Joao",
+            "email": "joao@kenzie.com.br",
             "admin": true,
             "active": true
         }
@@ -384,8 +384,8 @@ No **_header_**(cabeçalho) da requisição deve ser enviado um **_Bearer &lt;to
         ```json
         {
             "id": 2,
-            "name": "Cauan",
-            "email": "cauan@kenzie.com.br",
+            "name": "Gabriel",
+            "email": "gabriel@gabriel.com.br",
             "admin": false,
             "active": true
         }
